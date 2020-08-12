@@ -10,8 +10,8 @@ This notebook will analyze over 10 year CFRA reports with each quarterly filings
 
 * Find all equity research report and its corresponding financial statement reportings
 * With domain knowledge, select necessary features on the 3 statements to determine what is necessary
+* The ratings are broken down into another feature called delt. This occurs when an analyst indicates a change in position. For example: "...maintain buy", "...upgrade from buy to strong buy", "... downgrade from strong buy to buy" etc.
 * (future) SEC started providing footnotes. We will need to map the footnote ID to the company
-The ratings are broken down into another feature called delt. This occurs when an analyst indicates a change in position. For example: "...maintain buy", "...upgrade from buy to strong buy", "... downgrade from strong buy to buy" etc.
 
 ### Word on Models
 This model is simplified to first test out certain features.
